@@ -1,0 +1,8 @@
+package net.floodlightcontroller.aarroute;
+
+public class packet_count {
+	int nw_destination;
+	int nw_source;
+	int tp_destination;
+	int tp_source;
+}

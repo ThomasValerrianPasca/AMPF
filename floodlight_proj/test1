@@ -1,0 +1,666 @@
+Starting floodlight server ...
+INFO [net.floodlightcontroller.core.module.FloodlightModuleLoader:main] Loading default modules
+INFO [net.floodlightcontroller.core.internal.Controller:main] Controller role set to null
+Running=========================
+Running=========================
+INFO [net.floodlightcontroller.core.internal.Controller:main] Listening for switch connections on 0.0.0.0/0.0.0.0:6633
+INFO [net.floodlightcontroller.core.internal.Controller:New I/O server worker #1-1] New switch connection from /192.168.117.128:44739
+INFO [net.floodlightcontroller.core.internal.Controller:New I/O server worker #1-2] New switch connection from /192.168.117.128:44740
+INFO [net.floodlightcontroller.core.internal.Controller:New I/O server worker #1-4] New switch connection from /192.168.117.128:44742
+INFO [net.floodlightcontroller.core.internal.Controller:New I/O server worker #1-3] New switch connection from /192.168.117.128:44741
+INFO [net.floodlightcontroller.core.internal.Controller:New I/O server worker #1-6] New switch connection from /192.168.117.128:44744
+INFO [net.floodlightcontroller.core.internal.Controller:New I/O server worker #1-5] New switch connection from /192.168.117.128:44743
+thread running
+INFO [net.floodlightcontroller.jython.JythonServer:debugserver-main] Starting DebugServer on port 6655
+Key Entry:6
+Request time:1405321661313for Switch 1 :
+OFSwitchImpl [/192.168.117.128:44744 DPID[00:00:00:00:00:00:00:06]]
+####
+{}
+####
+net.floodlightcontroller.cost.Cost@17e21e3
+Key Entry:5
+Request time:1405321661314for Switch 2 :
+OFSwitchImpl [/192.168.117.128:44742 DPID[00:00:00:00:00:00:00:05]]
+####
+{}
+####
+net.floodlightcontroller.cost.Cost@17e21e3
+Key Entry:2
+Request time:1405321661314for Switch 3 :
+OFSwitchImpl [/192.168.117.128:44740 DPID[00:00:00:00:00:00:00:02]]
+####
+{}
+####
+net.floodlightcontroller.cost.Cost@17e21e3
+Key Entry:1
+Request time:1405321661314for Switch 4 :
+OFSwitchImpl [/192.168.117.128:44739 DPID[00:00:00:00:00:00:00:01]]
+####
+{}
+####
+net.floodlightcontroller.cost.Cost@17e21e3
+Key Entry:3
+Request time:1405321661315for Switch 5 :
+OFSwitchImpl [/192.168.117.128:44743 DPID[00:00:00:00:00:00:00:03]]
+####
+{}
+####
+net.floodlightcontroller.cost.Cost@17e21e3
+Key Entry:4
+Request time:1405321661315for Switch 6 :
+OFSwitchImpl [/192.168.117.128:44741 DPID[00:00:00:00:00:00:00:04]]
+####
+{}
+####
+net.floodlightcontroller.cost.Cost@17e21e3
+Switch added successfully
+Key and Value Pair
+OFSwitchImpl [/192.168.117.128:44740 DPID[00:00:00:00:00:00:00:02]]
+1405321661313
+Key and Value Pair
+OFSwitchImpl [/192.168.117.128:44741 DPID[00:00:00:00:00:00:00:04]]
+1405321661313
+Key and Value Pair
+OFSwitchImpl [/192.168.117.128:44739 DPID[00:00:00:00:00:00:00:01]]
+1405321661313
+Key and Value Pair
+OFSwitchImpl [/192.168.117.128:44743 DPID[00:00:00:00:00:00:00:03]]
+1405321661313
+Key and Value Pair
+OFSwitchImpl [/192.168.117.128:44744 DPID[00:00:00:00:00:00:00:06]]
+1405321661313
+Key and Value Pair
+OFSwitchImpl [/192.168.117.128:44742 DPID[00:00:00:00:00:00:00:05]]
+1405321661313
+##################################################
+packetreceived
+STATS_REPLY
+##################################################
+SwitchOFSwitchImpl [/192.168.117.128:44740 DPID[00:00:00:00:00:00:00:02]]
+Reply Time:1405321661318
+modify
+Actual delay5
+OFSwitchImpl [/192.168.117.128:44740 DPID[00:00:00:00:00:00:00:02]]
+1405321661313
+modify
+modify
+modify
+modify
+modify
+##################################################!!!!!!!
+ofmsg:v=1;t=STATS_REPLY;l=12;x=0
+##################################################
+packetreceived
+STATS_REPLY
+##################################################
+SwitchOFSwitchImpl [/192.168.117.128:44744 DPID[00:00:00:00:00:00:00:06]]
+Reply Time:1405321661321
+modify
+modify
+modify
+modify
+modify
+Actual delay8
+OFSwitchImpl [/192.168.117.128:44744 DPID[00:00:00:00:00:00:00:06]]
+1405321661313
+modify
+##################################################!!!!!!!
+ofmsg:v=1;t=STATS_REPLY;l=12;x=0
+##################################################
+packetreceived
+STATS_REPLY
+##################################################
+SwitchOFSwitchImpl [/192.168.117.128:44743 DPID[00:00:00:00:00:00:00:03]]
+Reply Time:1405321661323
+modify
+modify
+modify
+modify
+Actual delay9
+OFSwitchImpl [/192.168.117.128:44743 DPID[00:00:00:00:00:00:00:03]]
+1405321661313
+modify
+modify
+##################################################!!!!!!!
+ofmsg:v=1;t=STATS_REPLY;l=12;x=0
+##################################################
+packetreceived
+STATS_REPLY
+##################################################
+SwitchOFSwitchImpl [/192.168.117.128:44741 DPID[00:00:00:00:00:00:00:04]]
+Reply Time:1405321661324
+modify
+modify
+Actual delay11
+OFSwitchImpl [/192.168.117.128:44741 DPID[00:00:00:00:00:00:00:04]]
+1405321661313
+modify
+modify
+modify
+modify
+##################################################!!!!!!!
+ofmsg:v=1;t=STATS_REPLY;l=12;x=0
+##################################################
+packetreceived
+STATS_REPLY
+##################################################
+SwitchOFSwitchImpl [/192.168.117.128:44739 DPID[00:00:00:00:00:00:00:01]]
+Reply Time:1405321661325
+modify
+modify
+modify
+Actual delay12
+OFSwitchImpl [/192.168.117.128:44739 DPID[00:00:00:00:00:00:00:01]]
+1405321661313
+modify
+modify
+modify
+##################################################!!!!!!!
+ofmsg:v=1;t=STATS_REPLY;l=12;x=0
+##################################################
+packetreceived
+STATS_REPLY
+##################################################
+SwitchOFSwitchImpl [/192.168.117.128:44742 DPID[00:00:00:00:00:00:00:05]]
+Reply Time:1405321661325
+modify
+modify
+modify
+modify
+modify
+modify
+Actual delay12
+OFSwitchImpl [/192.168.117.128:44742 DPID[00:00:00:00:00:00:00:05]]
+1405321661313
+##################################################!!!!!!!
+ofmsg:v=1;t=STATS_REPLY;l=12;x=0
+Key Entry:6
+Request time:1405321671314for Switch 1 :
+OFSwitchImpl [/192.168.117.128:44744 DPID[00:00:00:00:00:00:00:06]]
+####
+{0=net.floodlightcontroller.cost.Cost@17e21e3}
+####
+net.floodlightcontroller.cost.Cost@17e21e3
+Key Entry:5
+Request time:1405321671314for Switch 2 :
+OFSwitchImpl [/192.168.117.128:44742 DPID[00:00:00:00:00:00:00:05]]
+####
+{0=net.floodlightcontroller.cost.Cost@17e21e3}
+####
+net.floodlightcontroller.cost.Cost@17e21e3
+Key Entry:2
+Request time:1405321671314for Switch 3 :
+OFSwitchImpl [/192.168.117.128:44740 DPID[00:00:00:00:00:00:00:02]]
+####
+{0=net.floodlightcontroller.cost.Cost@17e21e3}
+####
+net.floodlightcontroller.cost.Cost@17e21e3
+Key Entry:1
+Request time:1405321671314for Switch 4 :
+OFSwitchImpl [/192.168.117.128:44739 DPID[00:00:00:00:00:00:00:01]]
+####
+{0=net.floodlightcontroller.cost.Cost@17e21e3}
+####
+net.floodlightcontroller.cost.Cost@17e21e3
+Key Entry:3
+Request time:1405321671315for Switch 5 :
+OFSwitchImpl [/192.168.117.128:44743 DPID[00:00:00:00:00:00:00:03]]
+####
+{0=net.floodlightcontroller.cost.Cost@17e21e3}
+####
+net.floodlightcontroller.cost.Cost@17e21e3
+Key Entry:4
+Request time:1405321671315for Switch 6 :
+OFSwitchImpl [/192.168.117.128:44741 DPID[00:00:00:00:00:00:00:04]]
+####
+{0=net.floodlightcontroller.cost.Cost@17e21e3}
+####
+net.floodlightcontroller.cost.Cost@17e21e3
+Switch added successfully
+Key and Value Pair
+OFSwitchImpl [/192.168.117.128:44740 DPID[00:00:00:00:00:00:00:02]]
+1405321671314
+Key and Value Pair
+OFSwitchImpl [/192.168.117.128:44741 DPID[00:00:00:00:00:00:00:04]]
+1405321671314
+Key and Value Pair
+OFSwitchImpl [/192.168.117.128:44739 DPID[00:00:00:00:00:00:00:01]]
+1405321671314
+Key and Value Pair
+OFSwitchImpl [/192.168.117.128:44743 DPID[00:00:00:00:00:00:00:03]]
+1405321671314
+Key and Value Pair
+OFSwitchImpl [/192.168.117.128:44744 DPID[00:00:00:00:00:00:00:06]]
+1405321671314
+Key and Value Pair
+OFSwitchImpl [/192.168.117.128:44742 DPID[00:00:00:00:00:00:00:05]]
+1405321671314
+##################################################
+packetreceived
+STATS_REPLY
+##################################################
+SwitchOFSwitchImpl [/192.168.117.128:44739 DPID[00:00:00:00:00:00:00:01]]
+Reply Time:1405321671316
+modify
+modify
+modify
+##################################################
+packetreceived
+STATS_REPLY
+##################################################
+SwitchOFSwitchImpl [/192.168.117.128:44740 DPID[00:00:00:00:00:00:00:02]]
+Reply Time:1405321671316
+modify
+Actual delay2
+OFSwitchImpl [/192.168.117.128:44740 DPID[00:00:00:00:00:00:00:02]]
+1405321671314
+modify
+modify
+modify
+modify
+modify
+##################################################!!!!!!!
+ofmsg:v=1;t=STATS_REPLY;l=12;x=0
+##################################################
+packetreceived
+STATS_REPLY
+##################################################
+Actual delay2
+SwitchOFSwitchImpl [/192.168.117.128:44743 DPID[00:00:00:00:00:00:00:03]]
+Reply Time:1405321671317
+modify
+modify
+modify
+modify
+##################################################
+packetreceived
+STATS_REPLY
+##################################################
+##################################################
+packetreceived
+STATS_REPLY
+##################################################
+SwitchOFSwitchImpl [/192.168.117.128:44742 DPID[00:00:00:00:00:00:00:05]]
+Actual delay3
+##################################################
+packetreceived
+STATS_REPLY
+##################################################
+SwitchOFSwitchImpl [/192.168.117.128:44744 DPID[00:00:00:00:00:00:00:06]]
+Reply Time:1405321671317
+modify
+modify
+modify
+modify
+modify
+Actual delay3
+OFSwitchImpl [/192.168.117.128:44744 DPID[00:00:00:00:00:00:00:06]]
+1405321671314
+modify
+##################################################!!!!!!!
+ofmsg:v=1;t=STATS_REPLY;l=12;x=0
+OFSwitchImpl [/192.168.117.128:44739 DPID[00:00:00:00:00:00:00:01]]
+OFSwitchImpl [/192.168.117.128:44743 DPID[00:00:00:00:00:00:00:03]]
+1405321671314
+modify
+modify
+##################################################!!!!!!!
+Reply Time:1405321671317
+modify
+modify
+modify
+modify
+modify
+modify
+SwitchOFSwitchImpl [/192.168.117.128:44741 DPID[00:00:00:00:00:00:00:04]]
+Actual delay3
+ofmsg:v=1;t=STATS_REPLY;l=12;x=0
+1405321671314
+modify
+modify
+modify
+##################################################!!!!!!!
+ofmsg:v=1;t=STATS_REPLY;l=12;x=0
+OFSwitchImpl [/192.168.117.128:44742 DPID[00:00:00:00:00:00:00:05]]
+Reply Time:1405321671318
+modify
+modify
+1405321671314
+##################################################!!!!!!!
+Actual delay3
+ofmsg:v=1;t=STATS_REPLY;l=12;x=0
+OFSwitchImpl [/192.168.117.128:44741 DPID[00:00:00:00:00:00:00:04]]
+1405321671314
+modify
+modify
+modify
+modify
+##################################################!!!!!!!
+ofmsg:v=1;t=STATS_REPLY;l=12;x=0
+Key Entry:6
+Request time:1405321681315for Switch 1 :
+OFSwitchImpl [/192.168.117.128:44744 DPID[00:00:00:00:00:00:00:06]]
+####
+{0=net.floodlightcontroller.cost.Cost@17e21e3}
+####
+net.floodlightcontroller.cost.Cost@17e21e3
+Key Entry:5
+Request time:1405321681315for Switch 2 :
+OFSwitchImpl [/192.168.117.128:44742 DPID[00:00:00:00:00:00:00:05]]
+####
+{0=net.floodlightcontroller.cost.Cost@17e21e3}
+####
+net.floodlightcontroller.cost.Cost@17e21e3
+Key Entry:2
+Request time:1405321681315for Switch 3 :
+OFSwitchImpl [/192.168.117.128:44740 DPID[00:00:00:00:00:00:00:02]]
+####
+{0=net.floodlightcontroller.cost.Cost@17e21e3}
+####
+net.floodlightcontroller.cost.Cost@17e21e3
+Key Entry:1
+Request time:1405321681315for Switch 4 :
+OFSwitchImpl [/192.168.117.128:44739 DPID[00:00:00:00:00:00:00:01]]
+####
+{0=net.floodlightcontroller.cost.Cost@17e21e3}
+####
+net.floodlightcontroller.cost.Cost@17e21e3
+Key Entry:3
+Request time:1405321681316for Switch 5 :
+OFSwitchImpl [/192.168.117.128:44743 DPID[00:00:00:00:00:00:00:03]]
+####
+{0=net.floodlightcontroller.cost.Cost@17e21e3}
+####
+net.floodlightcontroller.cost.Cost@17e21e3
+Key Entry:4
+Request time:1405321681316for Switch 6 :
+OFSwitchImpl [/192.168.117.128:44741 DPID[00:00:00:00:00:00:00:04]]
+####
+{0=net.floodlightcontroller.cost.Cost@17e21e3}
+####
+net.floodlightcontroller.cost.Cost@17e21e3
+Switch added successfully
+Key and Value Pair
+OFSwitchImpl [/192.168.117.128:44740 DPID[00:00:00:00:00:00:00:02]]
+1405321681315
+Key and Value Pair
+OFSwitchImpl [/192.168.117.128:44741 DPID[00:00:00:00:00:00:00:04]]
+1405321681315
+Key and Value Pair
+OFSwitchImpl [/192.168.117.128:44739 DPID[00:00:00:00:00:00:00:01]]
+##################################################
+packetreceived
+STATS_REPLY
+##################################################
+1405321681315
+Key and Value Pair
+OFSwitchImpl [/192.168.117.128:44743 DPID[00:00:00:00:00:00:00:03]]
+SwitchOFSwitchImpl [/192.168.117.128:44739 DPID[00:00:00:00:00:00:00:01]]
+1405321681315
+Key and Value Pair
+OFSwitchImpl [/192.168.117.128:44744 DPID[00:00:00:00:00:00:00:06]]
+##################################################
+packetreceived
+STATS_REPLY
+##################################################
+1405321681315
+Key and Value Pair
+OFSwitchImpl [/192.168.117.128:44742 DPID[00:00:00:00:00:00:00:05]]
+##################################################
+packetreceived
+STATS_REPLY
+##################################################
+SwitchOFSwitchImpl [/192.168.117.128:44742 DPID[00:00:00:00:00:00:00:05]]
+Reply Time:1405321681318
+modify
+modify
+modify
+modify
+modify
+modify
+Actual delay3
+OFSwitchImpl [/192.168.117.128:44742 DPID[00:00:00:00:00:00:00:05]]
+1405321681315
+##################################################!!!!!!!
+ofmsg:v=1;t=STATS_REPLY;l=12;x=0
+Reply Time:1405321681317
+modify
+modify
+modify
+Actual delay2
+OFSwitchImpl [/192.168.117.128:44739 DPID[00:00:00:00:00:00:00:01]]
+1405321681315
+modify
+modify
+modify
+##################################################!!!!!!!
+ofmsg:v=1;t=STATS_REPLY;l=12;x=0
+##################################################
+packetreceived
+STATS_REPLY
+##################################################
+1405321681315
+##################################################
+packetreceived
+STATS_REPLY
+##################################################
+SwitchOFSwitchImpl [/192.168.117.128:44743 DPID[00:00:00:00:00:00:00:03]]
+Reply Time:1405321681319
+modify
+modify
+modify
+modify
+Actual delay4
+OFSwitchImpl [/192.168.117.128:44743 DPID[00:00:00:00:00:00:00:03]]
+1405321681315
+modify
+modify
+##################################################!!!!!!!
+ofmsg:v=1;t=STATS_REPLY;l=12;x=0
+SwitchOFSwitchImpl [/192.168.117.128:44740 DPID[00:00:00:00:00:00:00:02]]
+Reply Time:1405321681320
+modify
+Actual delay2
+OFSwitchImpl [/192.168.117.128:44740 DPID[00:00:00:00:00:00:00:02]]
+1405321681315
+modify
+modify
+modify
+modify
+modify
+##################################################!!!!!!!
+ofmsg:v=1;t=STATS_REPLY;l=12;x=0
+SwitchOFSwitchImpl [/192.168.117.128:44744 DPID[00:00:00:00:00:00:00:06]]
+##################################################
+packetreceived
+STATS_REPLY
+##################################################
+Reply Time:1405321681321
+modify
+modify
+modify
+modify
+modify
+SwitchOFSwitchImpl [/192.168.117.128:44741 DPID[00:00:00:00:00:00:00:04]]
+Actual delay4
+Reply Time:1405321681321
+modify
+modify
+OFSwitchImpl [/192.168.117.128:44744 DPID[00:00:00:00:00:00:00:06]]
+Actual delay6
+1405321681315
+modify
+OFSwitchImpl [/192.168.117.128:44741 DPID[00:00:00:00:00:00:00:04]]
+##################################################!!!!!!!
+1405321681315
+modify
+modify
+modify
+modify
+##################################################!!!!!!!
+ofmsg:v=1;t=STATS_REPLY;l=12;x=0
+ofmsg:v=1;t=STATS_REPLY;l=12;x=0
+Key Entry:6
+Request time:1405321691316for Switch 1 :
+OFSwitchImpl [/192.168.117.128:44744 DPID[00:00:00:00:00:00:00:06]]
+####
+{0=net.floodlightcontroller.cost.Cost@17e21e3}
+####
+net.floodlightcontroller.cost.Cost@17e21e3
+Key Entry:5
+Request time:1405321691316for Switch 2 :
+OFSwitchImpl [/192.168.117.128:44742 DPID[00:00:00:00:00:00:00:05]]
+####
+{0=net.floodlightcontroller.cost.Cost@17e21e3}
+####
+net.floodlightcontroller.cost.Cost@17e21e3
+Key Entry:2
+Request time:1405321691316for Switch 3 :
+OFSwitchImpl [/192.168.117.128:44740 DPID[00:00:00:00:00:00:00:02]]
+####
+{0=net.floodlightcontroller.cost.Cost@17e21e3}
+####
+net.floodlightcontroller.cost.Cost@17e21e3
+Key Entry:1
+Request time:1405321691316for Switch 4 :
+OFSwitchImpl [/192.168.117.128:44739 DPID[00:00:00:00:00:00:00:01]]
+####
+{0=net.floodlightcontroller.cost.Cost@17e21e3}
+####
+net.floodlightcontroller.cost.Cost@17e21e3
+Key Entry:3
+Request time:1405321691316for Switch 5 :
+OFSwitchImpl [/192.168.117.128:44743 DPID[00:00:00:00:00:00:00:03]]
+####
+{0=net.floodlightcontroller.cost.Cost@17e21e3}
+####
+net.floodlightcontroller.cost.Cost@17e21e3
+Key Entry:4
+Request time:1405321691317for Switch 6 :
+OFSwitchImpl [/192.168.117.128:44741 DPID[00:00:00:00:00:00:00:04]]
+####
+{0=net.floodlightcontroller.cost.Cost@17e21e3}
+####
+net.floodlightcontroller.cost.Cost@17e21e3
+Switch added successfully
+Key and Value Pair
+OFSwitchImpl [/192.168.117.128:44740 DPID[00:00:00:00:00:00:00:02]]
+1405321691316
+Key and Value Pair
+OFSwitchImpl [/192.168.117.128:44741 DPID[00:00:00:00:00:00:00:04]]
+1405321691316
+Key and Value Pair
+OFSwitchImpl [/192.168.117.128:44739 DPID[00:00:00:00:00:00:00:01]]
+1405321691316
+Key and Value Pair
+OFSwitchImpl [/192.168.117.128:44743 DPID[00:00:00:00:00:00:00:03]]
+1405321691316
+Key and Value Pair
+OFSwitchImpl [/192.168.117.128:44744 DPID[00:00:00:00:00:00:00:06]]
+1405321691316
+Key and Value Pair
+OFSwitchImpl [/192.168.117.128:44742 DPID[00:00:00:00:00:00:00:05]]
+1405321691316
+##################################################
+packetreceived
+STATS_REPLY
+##################################################
+SwitchOFSwitchImpl [/192.168.117.128:44739 DPID[00:00:00:00:00:00:00:01]]
+Reply Time:1405321691317
+modify
+modify
+modify
+Actual delay1
+OFSwitchImpl [/192.168.117.128:44739 DPID[00:00:00:00:00:00:00:01]]
+1405321691316
+modify
+modify
+modify
+##################################################!!!!!!!
+ofmsg:v=1;t=STATS_REPLY;l=12;x=0
+##################################################
+packetreceived
+STATS_REPLY
+##################################################
+SwitchOFSwitchImpl [/192.168.117.128:44740 DPID[00:00:00:00:00:00:00:02]]
+Reply Time:1405321691318
+modify
+Actual delay2
+OFSwitchImpl [/192.168.117.128:44740 DPID[00:00:00:00:00:00:00:02]]
+1405321691316
+modify
+modify
+modify
+modify
+modify
+##################################################!!!!!!!
+ofmsg:v=1;t=STATS_REPLY;l=12;x=0
+##################################################
+packetreceived
+STATS_REPLY
+##################################################
+SwitchOFSwitchImpl [/192.168.117.128:44742 DPID[00:00:00:00:00:00:00:05]]
+Reply Time:1405321691319
+modify
+modify
+modify
+modify
+modify
+modify
+Actual delay2
+OFSwitchImpl [/192.168.117.128:44742 DPID[00:00:00:00:00:00:00:05]]
+1405321691316
+##################################################!!!!!!!
+ofmsg:v=1;t=STATS_REPLY;l=12;x=0
+##################################################
+packetreceived
+STATS_REPLY
+##################################################
+SwitchOFSwitchImpl [/192.168.117.128:44743 DPID[00:00:00:00:00:00:00:03]]
+Reply Time:1405321691319
+modify
+modify
+modify
+modify
+Actual delay3
+OFSwitchImpl [/192.168.117.128:44743 DPID[00:00:00:00:00:00:00:03]]
+1405321691316
+modify
+modify
+##################################################!!!!!!!
+ofmsg:v=1;t=STATS_REPLY;l=12;x=0
+##################################################
+packetreceived
+STATS_REPLY
+##################################################
+SwitchOFSwitchImpl [/192.168.117.128:44744 DPID[00:00:00:00:00:00:00:06]]
+Reply Time:1405321691319
+modify
+modify
+modify
+modify
+modify
+Actual delay3
+OFSwitchImpl [/192.168.117.128:44744 DPID[00:00:00:00:00:00:00:06]]
+1405321691316
+modify
+##################################################!!!!!!!
+ofmsg:v=1;t=STATS_REPLY;l=12;x=0
+##################################################
+packetreceived
+STATS_REPLY
+##################################################
+SwitchOFSwitchImpl [/192.168.117.128:44741 DPID[00:00:00:00:00:00:00:04]]
+Reply Time:1405321691320
+modify
+modify
+Actual delay4
+OFSwitchImpl [/192.168.117.128:44741 DPID[00:00:00:00:00:00:00:04]]
+1405321691316
+modify
+modify
+modify
+modify
+##################################################!!!!!!!
+ofmsg:v=1;t=STATS_REPLY;l=12;x=0

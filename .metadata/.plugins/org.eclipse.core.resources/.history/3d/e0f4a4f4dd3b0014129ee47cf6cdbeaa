@@ -1,0 +1,8 @@
+package net.floodlightcontroller.aarroute;
+
+public class packet_interval {
+	int count;
+	long inter_pkt_delay;
+	long received_timestamp;
+	int packet_size;
+}

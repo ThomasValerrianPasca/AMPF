@@ -1,0 +1,29 @@
+package net.floodlightcontroller.aarroute;
+
+
+public class packet_count {
+	int nw_destination;
+	int nw_source;
+	int tp_destination;
+	int tp_source;
+	
+	@Override
+	public boolean equals(Object obj) {
+		//System.out.println("Entered equals object");
+		IpTcpTuple temp = (IpTcpTuple)obj;
+		
+		if(matchTuple(temp.srcIP, temp.dstIP, temp.srcPort, temp.dstPort)){
+			return true;
+		}else{
+			return false;
+		}
+		//return super.equals(obj);
+	}
+	
+	@Override
+	public int hashCode() {
+		//System.out.println("hashcode");
+		return data().hashCode();
+		
+	}
+}
